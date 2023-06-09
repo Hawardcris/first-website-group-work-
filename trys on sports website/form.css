@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.2)50%,rgba(0,0,0,0.2)50%), url(jordan.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
+
+.form{
+    width: 250px;
+    height: 340px;
+    color: rgba(153, 13, 13, 0.822);
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 40px 25px;
+}
+
+.form h1{
+    width: 220px;
+    text-align: center;
+    padding-left: 11px;
+}
